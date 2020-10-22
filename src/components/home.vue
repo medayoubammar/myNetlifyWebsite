@@ -3,7 +3,7 @@
   <div id="home">
     <img class="avatar" src="assets/homePic.jpg">
    
-    <h1 >{{ msg }}</h1>
+    <h1>{{ msg }}</h1>
     <h2>Web & Mobile Developer 💻 </h2>
     <h4>Computer science student , addicted success and learning ..think outside the div </h4>
     <ul>

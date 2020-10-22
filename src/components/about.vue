@@ -18,9 +18,7 @@ and currently I'm a Computer Science student at ISAMM.
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style>

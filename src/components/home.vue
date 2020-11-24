@@ -1,7 +1,7 @@
 <template>
 
   <div id="home">
-    <img class="avatar" src="assets/homePic.jpg">
+    <img class="avatar" src="assets/portrait.png">
    
     <h1>{{ msg }}</h1>
     <h2>Web & Mobile Developer 💻 </h2>
@@ -36,9 +36,10 @@ export default {
 }
 .avatar {
   vertical-align: middle;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 300px;
+  height: 250px;
+  border-radius: 100%;
+  border : solid rgb(93, 92, 92) ;
   margin-bottom: 30px;
 }
 #home {

@@ -62,20 +62,23 @@ export default {
   margin-bottom: 30px;
 }
 #home {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 
-  margin-top: 120px;
+  margin-top: 80px;
+}
+h4 {
+  font-size: 15px !important ;
 }
 
 h1,
 h2 {
+  font-size: 20px !important ;
   font-weight: normal;
-  margin-bottom: 30px;
+  margin-bottom: 10px !important;
 }
 
 ul {

@@ -104,7 +104,7 @@ export default {
           Projectname: "Universty students ",
           techs: "JAVA EE,Bootstrap",
           image: "assets/university.png",
-          link: "https://github.com/medayoubammar/JAVA-EE-CRUD-App",
+          link: "https://github.com/medayoubammar/University_Managment",
           description:
             "An Academic project for managing lists of universty students ",
         },

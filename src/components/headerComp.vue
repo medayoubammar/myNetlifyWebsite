@@ -1,13 +1,14 @@
-<template>
+<template >
 <div>
  
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
+<nav class="navbar navbar-expand-lg navbar-light bg-white" >
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" 
   data-toggle="collapse" data-target="#navbarNavDropdown" 
   aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
   <img src="../../assets/apple-touch-icon.png" width="30"/>
   </button>
+   
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav mx-auto lines">
       <li class="nav-item active" >
@@ -31,8 +32,11 @@
       </li>
       
     </ul>
+   
   </div>
+  
 </nav>
+
 
 </div>
 
@@ -40,19 +44,36 @@
 
 <script>
 export default {
+ 
 data(){
   return {
     isActive : true,
       activeClass : " text text-primary font-italic  " ,
       NotactiveClass : "text text-muted",
        type: 'home',
+       NavTheme : 'dark-mode'
+  }
+},
+ methods : {
+  darkMode : function(){
+    console.log("darkmode");
+   
+  },
+  lightMode : function(){
+      console.log("Lightmode");
   }
 }
+
 
 }
 </script>
 
 <style>
+.dark-mode {
+  background: #020A39 !important;
+  color : #ffff !important;
+  
+}
 nav span {
   max-width : 1px  !important;
   max-height : 1px !important;

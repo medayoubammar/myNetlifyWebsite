@@ -1,49 +1,41 @@
 <template>
   <div class="container" id="fluid">
     <div>
-      <h1>Projects</h1>
+     
 
-      <h5>This section contains my projects ..</h5>
+      <h6>This section contains my projects :</h6>
       <br />
     </div>
-    <div class="row mb-2">
-      <!-- project -->
-      <div
-        class="project col-md-6"
-        v-for="(project, index) of Projects"
-        :key="index"
-      >
-        <div class="card flex-md-row mb-4 box-shadow h-md-250">
-          <div class="card-body d-flex flex-column align-items-start">
-            <h3 class="mb-0">
-              <a class="text-dark" target="_blank" v-bind:href="project.link">{{
-                project.Projectname
-              }}</a>
-            </h3>
-            <br />
-
-            <div class="mb-1 text-muted">{{ project.techs }}</div>
-            <br />
-            <p class="card-text mb-auto">{{ project.description }}.</p>
-          </div>
-          <a v-bind:href="project.link" target="_blank">
-            <img
-              class="thumb card-img-right flex-auto d-none d-md-block"
-              v-bind:src="project.image"
-              alt="Card image cap"
-            />
-          </a>
-        </div>
+    <div class="subMenu mb-5">
+      <h6 v-bind:class="type == 'dev' ?
+       activeClass : NotactiveClass " v-on:click="type = 'dev' " >Software</h6>
+      <h6 v-bind:class="type == 'art' ?
+       activeClass : NotactiveClass " v-on:click="type = 'art'">Design & Video Editing</h6>
+       <h6 v-bind:class="type == 'softSkills' ?
+       activeClass : NotactiveClass " v-on:click="type = 'softSkills'">Other</h6>
       </div>
-    </div>
+      <!-- project -->
+        <ProjectsContent  v-show="this.type == 'art' " v-bind:projects="this.Design_Projects" />
+          <ProjectsContent v-show="this.type == 'dev' " v-bind:projects="this.Dev_Projects" />
+          <ProjectsContent  v-show="this.type == 'softSkills' " v-bind:projects="this.softSkills_Projects" />
+
+
   </div>
 </template>
 
 <script>
+import ProjectsContent from './ProjectsContent.vue';
 export default {
+  
+  components: { ProjectsContent },
+  
   data() {
     return {
-      Projects: [
+      isActive : true,
+      activeClass : "badge badge-primary text-wrap text-uppercase " ,
+      NotactiveClass : "text text-muted",
+      type: 'dev',
+      Dev_Projects: [
         {
           Projectname: "Artify features",
           techs: "ReactJS,NodeJS",
@@ -117,12 +109,77 @@ export default {
             "A mobile app allows you to discover the current time at different nations",
         },
       ],
+      Design_Projects : [
+         {
+          Projectname: "Ojidoo Posts",
+          techs: "Adobe After Effect",
+          image: "assets/ojidoo.png",
+          link: "https://www.facebook.com/ojidooplatform/posts/250107060252882",
+          description:
+            "Video Editing as facebook ads for platorm ojidoo.com ",
+        },
+         {
+          Projectname: "The Originals Movies",
+          techs: "Adobe After Effect , Adobe Premier Pro",
+          image: "assets/originals.jpg",
+          link: "https://www.youtube.com/watch?v=Jd7ydbEufMI",
+          description:
+            "Founder of The originals group, editor of all the short movies (VFX) ",
+        },
+          {
+          Projectname: "Video Clip Bey be3 Lebled",
+          techs: "Adobe After Effect , Adobe Premier Pro ",
+          image: "assets/youtube.png",
+          link: "https://www.youtube.com/watch?v=snHzrvl59SU",
+          description:
+            "Music Video Clip Editing  .",
+        },
+          {
+          Projectname: "Video Clip الراعي والذئاب",
+          techs: "Adobe After Effect , Adobe Premier Pro , Adobe Photoshop",
+          image: "assets/youtube.png",
+          link: "https://www.youtube.com/watch?v=EZU8FWatV2s",
+          description:
+            "Music Video Clip & animations Editing . ",
+        },
+         {
+          Projectname: "Video Clip ✪Touba✪",
+          techs: "Adobe After Effect , Adobe Premier Pro ",
+          image: "assets/youtube.png",
+          link: "https://www.youtube.com/watch?v=10eaQZ0NAGw",
+          description:
+            "Music Video Clip Editing .",
+        },
+        
+      ],
+      softSkills_Projects : [
+           {
+          Projectname: "POINT RAR PRODUCTION",
+          techs: "Content sharing , Public speech ",
+          image: "assets/rar.jpg",
+          link: "https://www.youtube.com/POINTRAR/videos",
+          description:
+            "Founder of . rar production , a tunisian channel for developing the knowledge (science/history content)",
+        },
+      ]
     };
   },
+  
+
+
+ 
 };
 </script>
 
 <style>
+.subMenu{
+    text-align: start;
+         border-bottom: 0.5px solid #9d9e9e;
+    width: 100%;
+}
+h6 {
+  cursor: pointer !important;
+}
 #fluid {
   margin-top: 10px;
 }

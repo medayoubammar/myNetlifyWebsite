@@ -1,6 +1,6 @@
 <template>
   <div class="container" id="about">
-    <h3 id="name">About Ammar Mohamed Ayoub</h3>
+    <h3 id="name">About me</h3>
     <p>
       Hi, I'm Ammar Mohamed Ayoub. I'm in love with coding and technology ❤️. I
       have a bachelor's degree (License) in Computer Science and Multimédias
@@ -21,7 +21,7 @@
 
 <style>
 #name {
-  margin-top: 120px;
+  margin-top: 50px;
   padding-bottom: 50px;
 }
 #about {

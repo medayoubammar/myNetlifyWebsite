@@ -8,7 +8,8 @@
       Computer science student , addicted success and learning ..think outside
       the div
     </h4>
-    <ul>
+    
+    <ul class="mt-5  pb-5" style="margin-bottom : 0">
       <li class="contact">
         <img class="icone" src="assets/linkedin.png" alt="linkedin" /><a
           class="links"
@@ -34,6 +35,11 @@
         >
       </li>
     </ul>
+    <p>Choose your mode :</p>
+     <button class="btn dark-btn"><img src="../../assets/dark.png"
+      width="35" v-on:click="emitToParent('dark')"  /></button>
+    <button class="btn light-btn"><img src="../../assets/light.png"
+     width="35"  v-on:click="emitToParent('light')" /></button>
   </div>
 </template>
 
@@ -45,6 +51,11 @@ export default {
       msg: "Ammar Mohamed Ayoub",
     };
   },
+  methods:{
+   emitToParent(_data){
+     this.$emit('childToParent',_data)
+   }
+  }
 };
 </script>
 
@@ -93,5 +104,16 @@ ul {
 .links {
   font-size: 20px;
   color: #2db7e0 !important ;
+}
+.dark-btn:hover{
+cursor: pointer;
+border: 1px solid #72008f;
+box-shadow: 1px 1px 10px #72008f;
+
+}
+.light-btn:hover{
+cursor: pointer;
+border: 1px solid rgb(2, 115, 190);
+box-shadow: 1px 1px 10px rgb(2, 115, 190);
 }
 </style>

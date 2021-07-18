@@ -7,7 +7,7 @@
       from ISAMM.
     </p>
 
-    <div id="resume">
+    <div id="resume" class="mt-5">
       <p>My resume 2020/2021</p>
       <img src="assets/resume.png" alt="ammarAyoubCv" /> <br />
       <a
@@ -20,9 +20,11 @@
 </template>
 
 <style>
+
 #name {
   margin-top: 50px;
-  padding-bottom: 50px;
+  
+ 
 }
 #about {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -31,11 +33,13 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
 }
 
 #resume {
-  padding-top: 60px;
+  padding-top: 100px;
   text-align: center;
+  padding-bottom: 50px;
 }
 #resume p {
   font-size: 20px;

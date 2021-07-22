@@ -38,8 +38,10 @@
     <p>Choose your mode :</p>
      <button class="btn dark-btn"><img src="../../assets/dark.png"
       width="35" v-on:click="emitToParent('dark')"  /></button>
+      <p>Dark mode</p>
     <button class="btn light-btn"><img src="../../assets/light.png"
      width="35"  v-on:click="emitToParent('light')" /></button>
+     <p>Light mode</p>
   </div>
 </template>
 
@@ -78,7 +80,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-
+ height: 840px !important;
   margin-top: 80px;
 }
 h4 {

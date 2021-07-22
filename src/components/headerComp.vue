@@ -53,16 +53,8 @@ data(){
        type: 'home',
        NavTheme : 'dark-mode'
   }
-},
- methods : {
-  darkMode : function(){
-    console.log("darkmode");
-   
-  },
-  lightMode : function(){
-      console.log("Lightmode");
-  }
 }
+ 
 
 
 }

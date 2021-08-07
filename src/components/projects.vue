@@ -44,21 +44,29 @@ export default {
           description:
             "Developping new features for Artify platform for my graduation project",
         },
-        {
-          Projectname: "Note App",
-          techs: "NodeJs,Javascript",
-          image: "assets/OIP.jfif",
-          link: "https://github.com/medayoubammar/notes-app_nodeJS",
+         {
+          Projectname: "Où ça ? Website",
+          techs: "ReactJS,firebase",
+          image: "assets/conan.jpg",
+          link: "https://collection-ou-ca-5cad4.web.app",
           description:
-            "A notes app using nodeJS , running by using commande lines",
+            "An E-learning website dedicated to kids aged under 11 years old ",
         },
         {
-          Projectname: "CIPEM website",
+          Projectname: "CIPEM Website",
           techs: "PHP,JavaScript,Bootsrtap",
           image: "assets/cipem.png",
           link: "http://cipem.com.tn",
           description:
             "An official company website interested in petroleum business ",
+        },
+         {
+          Projectname: "ART Shopping",
+          techs: "ReactJS,bootstrap,Firebase",
+          image: "assets/art.jpg",
+          link: "https://auth-react-test.netlify.app",
+          description:
+            "An E-commerce platforme for painting works sales / work both sides (client + admin dashboard)",
         },
         {
           Projectname: "Animated Scrolle Bar",
@@ -91,6 +99,14 @@ export default {
           link: "https://github.com/medayoubammar/GoMyCodeProjectLEVEL1",
           description:
             "An Academic project during Covid19 pandemic to help the community",
+        },
+         {
+          Projectname: "Note App",
+          techs: "NodeJs,Javascript",
+          image: "assets/OIP.jfif",
+          link: "https://github.com/medayoubammar/notes-app_nodeJS",
+          description:
+            "A notes app using nodeJS , running by using commande lines",
         },
         {
           Projectname: "Universty students ",

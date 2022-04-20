@@ -11,16 +11,18 @@
     <div id="resume" class="mt-5">
       <p>My resume 2021/2022</p>
       <img src="assets/resume.png" alt="ammarAyoubCv" /> <br />
-      <a
-        href="https://drive.google.com/file/d/1K8AzFuKJruRZ6AwOcDzewrOXXar6i0Ps/view"
-        target="_blank"
-        >Click Here</a
-      >
+   <a href="src\utils\resume.pdf" download="filename">Click Here to download my resume</a>
+
+
+
+      
     </div>
   </div>
 </template>
 
 <style>
+
+
 
 #name {
   margin-top: 50px;

@@ -4,14 +4,15 @@
     <p>
       Hi, I'm Ammar Mohamed Ayoub. I'm in love with coding and technology ❤️. I
       have a bachelor's degree (License) in Computer Science and Multimédias
-      from ISAMM.
+      from ISAMM. 
+      And I'm currently a Software engineering student at ISI (Institut Superieur d'Informatique)
     </p>
 
     <div id="resume" class="mt-5">
-      <p>My resume 2020/2021</p>
+      <p>My resume 2021/2022</p>
       <img src="assets/resume.png" alt="ammarAyoubCv" /> <br />
       <a
-        href="https://drive.google.com/file/d/1AewdcPskSw3UcTbOXwgs40f3cI_juvzC/view?usp=sharing"
+        href="https://drive.google.com/file/d/1K8AzFuKJruRZ6AwOcDzewrOXXar6i0Ps/view"
         target="_blank"
         >Click Here</a
       >

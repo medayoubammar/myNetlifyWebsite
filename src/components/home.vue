@@ -5,7 +5,7 @@
     <h1>{{ msg }}</h1>
     <h2>Web & Mobile Developer 💻</h2>
     <h4>
-      Computer science student , addicted success and learning ..think outside
+      Software engineering student , addicted success and learning ..think outside
       the div
     </h4>
     

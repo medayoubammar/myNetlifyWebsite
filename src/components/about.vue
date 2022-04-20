@@ -11,7 +11,7 @@
     <div id="resume" class="mt-5">
       <p>My resume 2021/2022</p>
       <img src="assets/resume.png" alt="ammarAyoubCv" /> <br />
-   <a href="src\utils\resume.pdf" download="filename">Click Here to download my resume</a>
+   <a href="src\utils\resume.pdf" download="resume.pdf">Click Here to download my resume</a>
 
 
 

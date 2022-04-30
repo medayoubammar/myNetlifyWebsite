@@ -1,5 +1,6 @@
 <template>
   <div id="home">
+    
     <img class="avatar" src="assets/portrait.png" />
 
     <h1>{{ msg }}</h1>
@@ -9,9 +10,9 @@
       the div
     </h4>
     
-    <ul class="mt-5  pb-5" style="margin-bottom : 0">
+    <ul class="mt-2  pb-5" style="margin-bottom : 0">
       <li class="contact">
-        <img class="icone" src="assets/linkedin.png" alt="linkedin" /><a
+        <img class="icone" src="assets/icone-linkedin-ronde-grise.png" alt="linkedin" /><a
           class="links"
           href="https://www.linkedin.com/in/mohammed-ayoub-ammar-1a6886177/"
           target="_blank"
@@ -19,7 +20,7 @@
         >
       </li>
       <li class="contact">
-        <img class="icone" src="assets/github.png" alt="github" /><a
+        <img class="icone" src="assets/icone-github-grise.png" alt="github" /><a
           class="links"
           href="https://github.com/medayoubammar"
           target="_blank"
@@ -27,7 +28,7 @@
         >
       </li>
       <li class="contact">
-        <img class="icone" src="assets/fbook.png" alt="fb" /><a
+        <img class="icone" src="assets/facebook-icone-gris.png" alt="fb" /><a
           class="links"
           href="https://www.facebook.com/ReznoveM"
           target="_blank"
@@ -36,12 +37,12 @@
       </li>
     </ul>
     <p>Choose your mode :</p>
-     <button class="btn dark-btn"><img src="../../assets/dark.png"
+     <button class="btn dark-btn"><img alt="dark-mode" src="../../assets/dark.png"
       width="35" v-on:click="emitToParent('dark')"  /></button>
-      <p>Dark mode</p>
+     
     <button class="btn light-btn"><img src="../../assets/light.png"
      width="35"  v-on:click="emitToParent('light')" /></button>
-     <p>Light mode</p>
+    
   </div>
 </template>
 

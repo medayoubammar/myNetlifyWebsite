@@ -1,42 +1,13 @@
 <template >
 <div>
- 
-<nav class="navbar navbar-expand-lg navbar-light bg-white" >
-  <a class="navbar-brand" href="#"></a>
-  <button class="navbar-toggler" type="button" 
-  data-toggle="collapse" data-target="#navbarNavDropdown" 
-  aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-  <img src="../../assets/apple-touch-icon.png" width="30"/>
-  </button>
-   
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav mx-auto lines">
-      <li class="nav-item active" >
-        <a class="nav-link"  >
-          <router-link to="/" exact><span >Home</span></router-link> 
-       <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" >
-          <router-link to="/projects" exact>
-          <span >Projects</span>
-       </router-link>
-       </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link"  >
-          <router-link to="/about" exact>
-          <span>About</span>
-       </router-link> 
-       </a>
-      </li>
-      
-    </ul>
-   
-  </div>
-  
-</nav>
 
+<nav class="navbar sticky-top ">
+  <div class="container-fluid lines">
+    <a class="navbar-brand"> <router-link to="/" exact><h1>Home</h1></router-link> </a>
+    <a class="navbar-brand"> <router-link to="/projects" exact><h1>Projects </h1></router-link>  </a>
+    <a class="navbar-brand"> <router-link to="/about" exact><h1>About </h1> </router-link> </a>
+  </div>
+</nav>
 
 </div>
 
@@ -66,19 +37,18 @@ data(){
   color : #ffff !important;
   
 }
-nav span {
-  max-width : 1px  !important;
-  max-height : 1px !important;
-}
-nav{
-    text-align: end;
-}
-.navbar-nav > li{
-  margin-left:30px;
-  margin-right:30px;
-}
+
 .lines{
      border-bottom: 0.5px solid #9d9e9e;
+       background-color: rgba(176, 173, 173, 0.227) !important;
+
 }
+ .lines a{
+       background-color: rgba(176, 173, 173, 0) !important;
+}
+ .lines a h1{
+       background-color: rgba(176, 173, 173, 0) !important;
+}
+
 
 </style>

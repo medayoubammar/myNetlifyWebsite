@@ -13,6 +13,7 @@
     "bootstrap": "^4.5.3",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
+    "v-video-embed": "^1.0.8",
     "vue": "^2.5.11",
     "vue-router": "^3.4.7",
     "yarn": "^1.22.18"

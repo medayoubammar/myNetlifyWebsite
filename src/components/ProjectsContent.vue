@@ -1,14 +1,14 @@
 <template>
 
-    <div class="row mb-2" >
+    <div class="row mb-2 " >
       <!-- project -->
       
       <div
-        class="project col-md-6"
+        class="project col-md-6 "
         v-for="(project, index) of Projects"
         :key="index"
          >
-        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+        <div class="card flex-md-row mb-4 box-shadow rounded border border-secondary">
           <div class="card-body d-flex flex-column align-items-start">
             <h3 class="mb-0">
               <a class="link" target="_blank" v-bind:href="project.link">{{
@@ -23,9 +23,9 @@
           </div>
           <a v-bind:href="project.link" target="_blank">
             <img
-              class="thumb card-img-right flex-auto d-none d-md-block"
+              class="thumb p-3 card-img-right flex-auto d-none d-md-block"
               v-bind:src="project.image"
-              alt="Card image cap"
+              alt="Card image cap "
             />
           </a>
         </div>

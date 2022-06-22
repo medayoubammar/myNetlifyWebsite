@@ -1,5 +1,5 @@
 <template>
-  <div class="container" id="fluid">
+  <div class="container-fluid px-5" id="fluid">
     <div>
      
 
@@ -36,6 +36,14 @@ export default {
       NotactiveClass : "text text-muted",
       type: 'dev',
       Dev_Projects: [
+           {
+          Projectname: "Netflix UI Cloning",
+          techs: "ReactJS,scss",
+          image: "assets/netflix.png",
+          link: "https://github.com/medayoubammar/Netflix_React_Clone",
+          description:
+            "Redesign Netflix UI from scratch using reactJS and scss",
+        },
         {
           Projectname: "Artify features",
           techs: "ReactJS,NodeJS",
@@ -43,6 +51,14 @@ export default {
           link: "https://artify.tn",
           description:
             "Developping new features for Artify platform for my graduation project",
+        },
+               {
+          Projectname: "Messenger Chat App",
+          techs: "MERN STACK",
+          image: "assets/messenger.png",
+          link: "https://github.com/medayoubammar/Messenger_clone_MERN",
+          description:
+            "A Chat Web application for privates discussions, Inspired by Messenger(Meta)",
         },
          {
           Projectname: "Où ça ? Website",

@@ -6,15 +6,15 @@
     <h1>{{ msg }}</h1>
     <h2>Web & Mobile Developer 💻</h2>
     <h4>
-      Software engineering student , addicted success and learning ..think outside
-      the div
+Lead instructor Web development & Software engineering student , <br> Full-Stack web developer & JS enthusiastic.. ...
     </h4>
-    
+  <video-embed class="videoYoutube" src="https://www.youtube.com/watch?v=yQzjLXn5yhc&t=26s"></video-embed>
+
     <ul class="mt-2  pb-5" style="margin-bottom : 0">
       <li class="contact">
         <img class="icone" src="assets/icone-linkedin-ronde-grise.png" alt="linkedin" /><a
           class="links"
-          href="https://www.linkedin.com/in/mohammed-ayoub-ammar-1a6886177/"
+          href="https://www.linkedin.com/in/mohamed-ayoub-ammar-1a6886177/"
           target="_blank"
           >LinkedIn</a
         >
@@ -24,7 +24,7 @@
           class="links"
           href="https://github.com/medayoubammar"
           target="_blank"
-          >Code</a
+          >Github</a
         >
       </li>
       <li class="contact">
@@ -63,6 +63,10 @@ export default {
 </script>
 
 <style>
+.videoYoutube{
+  width: 50% !important;
+ margin-left: 25% !important;
+}
 .icone {
   width: 20px;
   margin: 0 8px 8px 0px;
@@ -70,7 +74,7 @@ export default {
 .avatar {
   vertical-align: middle;
   width: 200px;
-  height: 200px;
+
   border-radius: 100%;
   border: solid rgba(1, 67, 209, 0.329);
   margin-bottom: 30px;
@@ -81,7 +85,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
- height: 840px !important;
   margin-top: 80px;
 }
 h4 {

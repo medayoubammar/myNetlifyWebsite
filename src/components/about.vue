@@ -2,10 +2,8 @@
   <div class="container" id="about">
     <h3 id="name">About me</h3>
     <p>
-      Hi, I'm Ammar Mohamed Ayoub. I'm in love with coding and technology ❤️. I
-      have a bachelor's degree (License) in Computer Science and Multimédias
-      from ISAMM. 
-      And I'm currently a Software engineering student at ISI (Institut Superieur d'Informatique)
+      Hi, I'm Ammar Mohamed Ayoub. I'm in love with coding and technology ❤️.
+       I'm currently a Software engineering student at ISI (Institut Superieur d'Informatique)
     </p>
 
     <div id="resume" class="mt-5">
@@ -36,7 +34,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  height: 1000px;
+  height: 858px;
   
 }
 

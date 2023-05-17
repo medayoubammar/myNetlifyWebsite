@@ -79,7 +79,7 @@ export default {
            {
           Projectname: "Humidity/Temp Detector",
           techs: "ReactJs,FastApi,Wokiwi",
-          image: "https://www.dramaandtheatre.co.uk/media/228710/dt-2022-104-50_f01.jpg?&width=780&quality=60",
+          image: "https://previews.123rf.com/images/antonshaparenko/antonshaparenko1912/antonshaparenko191200297/135677132-ic%C3%B4ne-de-d%C3%A9tecteur-de-flamme-%C3%A9l%C3%A9ment-simple-de-la-collection-d-ic%C3%B4nes-de-capteurs-ic%C3%B4ne-creative.jpg",
           link: "https://github.com/medayoubammar/DetectTemp-Humidity",
           description:
             "An IoT academic project , detect temp/humidiaty of your romm and send data to your web application",
@@ -90,7 +90,7 @@ export default {
           image: "https://www.dramaandtheatre.co.uk/media/228710/dt-2022-104-50_f01.jpg?&width=780&quality=60",
           link: "https://github.com/medayoubammar/SysExpertIA_IDL",
           description:
-            "A small game via an Expert Systeme using IA to guess a famous football player ",
+            "an academic project present a small game via an Expert Systeme using IA to guess a famous football player ",
         },
          {
           Projectname: "Où ça ? Website",

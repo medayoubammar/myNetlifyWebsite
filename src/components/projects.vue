@@ -68,6 +68,30 @@ export default {
           description:
             "A Chat Web application for privates discussions, Inspired by Messenger(Meta)",
         },
+        {
+          Projectname: "Radio Jeune ISI",
+          techs: "Dart,Flutter,Firebase",
+          image: "https://cdn-icons-png.flaticon.com/512/4345/4345594.png",
+          link: "#",
+          description:
+            "A Radio mobile app allows you to discover Tunisian channels via your account ",
+        },
+           {
+          Projectname: "Humidity/Temp Detector",
+          techs: "ReactJs,FastApi,Wokiwi",
+          image: "https://www.dramaandtheatre.co.uk/media/228710/dt-2022-104-50_f01.jpg?&width=780&quality=60",
+          link: "https://github.com/medayoubammar/DetectTemp-Humidity",
+          description:
+            "An IoT academic project , detect temp/humidiaty of your romm and send data to your web application",
+        },
+          {
+          Projectname: "Guess The player",
+          techs: "Python",
+          image: "https://www.dramaandtheatre.co.uk/media/228710/dt-2022-104-50_f01.jpg?&width=780&quality=60",
+          link: "https://github.com/medayoubammar/SysExpertIA_IDL",
+          description:
+            "A small game via an Expert Systeme using IA to guess a famous football player ",
+        },
          {
           Projectname: "Où ça ? Website",
           techs: "ReactJS,firebase",

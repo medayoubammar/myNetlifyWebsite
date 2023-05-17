@@ -42,7 +42,7 @@ export default {
           image: "assets/24bey.jpg",
           link: "https://www.24bey.com",
           description:
-            "",
+            "24BEY projects..",
         },
            {
           Projectname: "Netflix UI Cloning",

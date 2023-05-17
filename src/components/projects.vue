@@ -37,6 +37,14 @@ export default {
       type: 'dev',
       Dev_Projects: [
            {
+          Projectname: "24 B.E.Y",
+          techs: "ReactJS",
+          image: "assets/24bey.jpg",
+          link: "https://www.24bey.com",
+          description:
+            "",
+        },
+           {
           Projectname: "Netflix UI Cloning",
           techs: "ReactJS,scss",
           image: "assets/netflix.png",

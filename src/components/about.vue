@@ -4,6 +4,7 @@
     <p>
       Hi, I'm Ammar Mohamed Ayoub. I'm in love with coding and technology ❤️.
        I'm currently a Software engineering student at ISI (Institut Superieur d'Informatique)
+       And a Software Developer freelancer
     </p>
 
     <div id="resume" class="mt-5">

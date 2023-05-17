@@ -154,7 +154,7 @@ export default {
           Projectname: "Ojidoo Posts",
           techs: "Adobe After Effect",
           image: "assets/ojidoo.png",
-          link: "https://www.facebook.com/ojidooplatform/posts/250107060252882",
+          link: "https://www.youtube.com/@ojidoo4229",
           description:
             "Video Editing as facebook ads for platorm ojidoo.com ",
         },

@@ -9,6 +9,7 @@
     <router-view v-on:childToParent="onChildClick" ></router-view>
     
     </div>
+    
 </template>
 
 <script>
@@ -24,7 +25,7 @@ components : {
 data(){
   return {
     darkTheme : 'dark-mode',
-    mode : 'light',
+    mode : 'dark',
     lightTheme : 'light-mode',
     
   }

@@ -8,9 +8,9 @@
     </p>
 
     <div id="resume" class="mt-5">
-      <p>My resume 2021/2022</p>
+      <p>My resume 2022/2023</p>
       <img src="assets/resume.png" alt="ammarAyoubCv" /> <br />
-   <a href="src\utils\newResume.pdf" type="pdf" download>Click Here to download my resume</a>
+   <a href="src\utils\2024ResumeAyoubAmmar.pdf" type="pdf" download >Click Here to download my resume</a>
 
 
 

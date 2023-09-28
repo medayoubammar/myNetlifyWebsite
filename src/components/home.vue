@@ -1,7 +1,7 @@
 <template>
   <div id="home">
     
-    <img class="avatar" src="assets/portrait.png" />
+    <img class="avatar" src="../utils/micro.jpg" />
 
     <h1>{{ msg }}</h1>
     <h2>Web & Mobile Developer 💻</h2>
@@ -75,7 +75,7 @@ export default {
   vertical-align: middle;
   width: 200px;
 
-  border-radius: 100%;
+  /* border-radius: 80%; */
   border: solid rgba(1, 67, 209, 0.329);
   margin-bottom: 30px;
 }

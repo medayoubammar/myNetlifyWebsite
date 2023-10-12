@@ -45,7 +45,7 @@ export default {
             "24BEY projects..",
         },
            {
-          Projectname: "Netflix UI Cloning",
+          Projectname: "CloneFlix",
           techs: "ReactJS,scss",
           image: "assets/netflix.png",
           link: "https://github.com/medayoubammar/Netflix_React_Clone",
@@ -61,7 +61,7 @@ export default {
             "Developping new features for Artify platform for my graduation project",
         },
                {
-          Projectname: "Messenger Chat App",
+          Projectname: "Web Chat application",
           techs: "MERN STACK",
           image: "assets/messenger.png",
           link: "https://github.com/medayoubammar/Messenger_clone_MERN",
@@ -109,7 +109,7 @@ export default {
             "An official company website interested in petroleum business ",
         },
          {
-          Projectname: "ART Shopping",
+          Projectname: "ShopArt platform",
           techs: "ReactJS,bootstrap,Firebase",
           image: "assets/art.jpg",
           link: "https://auth-react-test.netlify.app",

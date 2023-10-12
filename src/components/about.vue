@@ -10,7 +10,7 @@
     <div id="resume" class="mt-5">
       <p>My resume 2022/2023</p>
       <img src="assets/resume.png" alt="ammarAyoubCv" /> <br />
-   <a href="src\utils\2024ResumeAyoubAmmar.pdf" type="pdf" download >Click Here to download my resume</a>
+   <a href="src\utils\Mohamed_Ayoub AMMAR_Resume_2024.pdf" type="pdf" download >Click Here to download my resume</a>
 
 
 

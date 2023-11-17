@@ -8,7 +8,10 @@
     <h4>
 Lead instructor Web development & Software engineering student , <br> Full-Stack web developer & JS enthusiastic.. ...
     </h4>
+   <div class="videos">
+     <video-embed class="videoYoutube" src="https://www.youtube.com/watch?v=UYkE7IBoRbI"></video-embed>
   <video-embed class="videoYoutube" src="https://www.youtube.com/watch?v=yQzjLXn5yhc&t=26s"></video-embed>
+   </div>
 
     <ul class="mt-2  pb-5" style="margin-bottom : 0">
       <li class="contact">
@@ -63,9 +66,14 @@ export default {
 </script>
 
 <style>
+.videos{
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-around;
+}
 .videoYoutube{
-  width: 50% !important;
- margin-left: 25% !important;
+  width: 45% !important;
+
 }
 .icone {
   width: 20px;

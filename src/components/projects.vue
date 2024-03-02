@@ -37,12 +37,12 @@ export default {
       type: 'dev',
       Dev_Projects: [
            {
-          Projectname: "24 B.E.Y",
-          techs: "ReactJS",
-          image: "assets/24bey.jpg",
-          link: "https://www.24bey.com",
+          Projectname: "C.H.I Landing page website",
+          techs: "NextJS",
+          image: "assets/CHI.png",
+          link: "https://first-try--chi-test-predeploy.netlify.app",
           description:
-            "24BEY projects..",
+            "Landing page website",
         },
            {
           Projectname: "CloneFlix",

@@ -3,12 +3,12 @@
     <h3 id="name">About me</h3>
     <p>
       Hi, I'm Ammar Mohamed Ayoub. I'm in love with coding and technology ❤️.
-       I'm currently a Software engineering student at ISI (Institut Superieur d'Informatique)
+       I'm currently a Software engineering
        And a Software Developer freelancer
     </p>
 
     <div id="resume" class="mt-5">
-      <p>My resume 2022/2023</p>
+      <p>My resume year - 2023 - </p>
       <img src="assets/resume.png" alt="ammarAyoubCv" /> <br />
    <a href="src\utils\Mohamed_Ayoub AMMAR_Resume_2024.pdf" type="pdf" download >Click Here to download my resume</a>
 

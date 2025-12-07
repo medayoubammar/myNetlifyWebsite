@@ -6,7 +6,7 @@
     <h1>{{ msg }}</h1>
     <h2>Web & Mobile Developer 💻</h2>
     <h4>
-Software engineer && Lead instructor Web development, <br> Full-Stack web developer & JS enthusiastic.. ...
+Software engineer && Lead instructor Web development, <br> Full-Stack web developer && JS enthusiastic.. ...
     </h4>
    <div class="videos">
      <video-embed class="videoYoutube" src="https://www.youtube.com/watch?v=UYkE7IBoRbI"></video-embed>
@@ -131,4 +131,5 @@ border: 1px solid rgb(2, 115, 190);
 box-shadow: 1px 1px 10px rgb(2, 115, 190);
 }
 </style>
+
 

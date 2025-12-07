@@ -3,14 +3,14 @@
     <h3 id="name">About me</h3>
     <p>
       Hi, I'm Ammar Mohamed Ayoub. I'm in love with coding and technology ❤️.
-       I'm currently a Software engineering
-       And a Software Developer freelancer
+       I'm currently a Software engineer
+       And a Developer freelancer
     </p>
 
     <div id="resume" class="mt-5">
-      <p>My resume year - 2023 - </p>
+      <p>My resume - 2026 </p>
       <img src="assets/resume.png" alt="ammarAyoubCv" /> <br />
-   <a href="src\utils\Mohamed_Ayoub AMMAR_Resume_2024.pdf" type="pdf" download >Click Here to download my resume</a>
+   <a href="src\utils\Mohamed_Ayoub_AMMAR_2026.pdf" type="pdf" download >Click Here to download my resume</a>
 
 
 
@@ -50,4 +50,5 @@
     "Lucida Sans", Arial, sans-serif;
   color: #2c3e50;
 }
+
 </style>

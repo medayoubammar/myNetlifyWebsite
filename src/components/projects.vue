@@ -175,14 +175,6 @@ export default {
       ],
       Design_Projects : [
          {
-          Projectname: "Ojidoo Posts",
-          techs: "Adobe After Effect",
-          image: "assets/ojidoo.png",
-          link: "https://www.youtube.com/@ojidoo4229",
-          description:
-            "Video Editing as facebook ads for platorm ojidoo.com ",
-        },
-         {
           Projectname: "The Originals Movies",
           techs: "Adobe After Effect , Adobe Premier Pro",
           image: "assets/originals.jpg",
@@ -259,3 +251,4 @@ h6 {
 }
 
 </style>
+

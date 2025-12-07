@@ -87,7 +87,7 @@ export default {
           {
           Projectname: "Guess The player",
           techs: "Python",
-          image: "https://www.dramaandtheatre.co.uk/media/228710/dt-2022-104-50_f01.jpg?&width=780&quality=60",
+          image: "https://img.freepik.com/photos-gratuite/man-funny-sport-crazy-expression_1194-3453.jpg",
           link: "https://github.com/medayoubammar/SysExpertIA_IDL",
           description:
             "an academic project present a small game via an Expert Systeme using IA to guess a famous football player ",
@@ -257,4 +257,5 @@ h6 {
     "Lucida Sans", Arial, sans-serif;
   color: #2c3e50;
 }
+
 </style>

@@ -25,7 +25,7 @@ components : {
 data(){
   return {
     darkTheme : 'dark-mode',
-    mode : 'dark',
+    mode : 'light',
     lightTheme : 'light-mode',
     
   }

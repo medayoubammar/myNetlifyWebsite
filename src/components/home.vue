@@ -30,14 +30,6 @@ Software engineer && Lead instructor Web development, <br> Full-Stack web develo
           >Github</a
         >
       </li>
-      <li class="contact">
-        <img class="icone" src="assets/facebook-icone-gris.png" alt="fb" /><a
-          class="links"
-          href="https://www.facebook.com/ReznoveM"
-          target="_blank"
-          >Facebook</a
-        >
-      </li>
     </ul>
     <p>Choose your mode :</p>
      <button class="btn dark-btn"><img alt="dark-mode" src="../../assets/dark.png"
@@ -131,5 +123,6 @@ border: 1px solid rgb(2, 115, 190);
 box-shadow: 1px 1px 10px rgb(2, 115, 190);
 }
 </style>
+
 
 
